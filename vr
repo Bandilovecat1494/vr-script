@@ -1,0 +1,138 @@
+local CameraHead = Instance.new("Part") 
+local Weld = Instance.new("Weld") 
+local TorsoPos = Instance.new("Part") 
+CameraHead.Anchored = false 
+CameraHead.Archivable = true 
+CameraHead.BackParamA = -0.5 
+CameraHead.BackParamB = 0.5 
+CameraHead.BackSurface = Enum.SurfaceType.Smooth 
+CameraHead.BackSurfaceInput = Enum.InputType.NoInput 
+CameraHead.BottomParamA = -0.5 
+CameraHead.BottomParamB = 0.5 
+CameraHead.BottomSurface = Enum.SurfaceType.Smooth 
+CameraHead.BottomSurfaceInput = Enum.InputType.NoInput 
+CameraHead.BrickColor = BrickColor.new("Medium stone grey") 
+CameraHead.CFrame = CFrame.new(0.07999999821186066, 4.518141746520996, -7.419999122619629)*CFrame.Angles(-0, -0, -1) 
+CameraHead.CanCollide = true 
+CameraHead.CollisionGroupId = "0" 
+CameraHead.Color = Color3.new(0.639216, 0.635294, 0.647059) 
+CameraHead.FrontParamA = -0.5 
+CameraHead.FrontParamB = 0.5 
+CameraHead.FrontSurface = Enum.SurfaceType.Smooth 
+CameraHead.FrontSurfaceInput = Enum.InputType.NoInput 
+CameraHead.LeftParamA = -0.5 
+CameraHead.LeftParamB = 0.5 
+CameraHead.LeftSurface = Enum.SurfaceType.Smooth 
+CameraHead.LeftSurfaceInput = Enum.InputType.NoInput 
+CameraHead.Locked = false 
+CameraHead.Material = Enum.Material.Plastic 
+CameraHead.Name = "CameraHead" 
+CameraHead.Orientation = Vector3.new(0, 0, 0) 
+CameraHead.Parent = Workspace 
+CameraHead.Position = Vector3.new(0.07999999821186066, 4.518141746520996, -7.419999122619629) 
+CameraHead.Reflectance = 0 
+CameraHead.RightParamA = -0.5 
+CameraHead.RightParamB = 0.5 
+CameraHead.RightSurface = Enum.SurfaceType.Smooth 
+CameraHead.RightSurfaceInput = Enum.InputType.NoInput 
+CameraHead.RotVelocity = Vector3.new(0, 0, 0) 
+CameraHead.Rotation = Vector3.new(0, 0, 0) 
+CameraHead.Shape = Enum.PartType.Block 
+CameraHead.Size = Vector3.new(1, 1, 1) 
+CameraHead.TopParamA = -0.5 
+CameraHead.TopParamB = 0.5 
+CameraHead.TopSurface = Enum.SurfaceType.Smooth 
+CameraHead.TopSurfaceInput = Enum.InputType.NoInput 
+CameraHead.Transparency = 0 
+CameraHead.Velocity = Vector3.new(0, 0, 0) 
+Weld.Archivable = true 
+Weld.C0 = CFrame.new(0, -1, 0)*CFrame.Angles(-0, -0, -1) 
+Weld.C1 = CFrame.new(0, 0, 0)*CFrame.Angles(-0, -0, -1) 
+Weld.Name = "Weld" 
+Weld.Parent = CameraHead 
+Weld.Part0 = CameraHead 
+Weld.Part1 = TorsoPos 
+TorsoPos.Anchored = false 
+TorsoPos.Archivable = true 
+TorsoPos.BackParamA = -0.5 
+TorsoPos.BackParamB = 0.5 
+TorsoPos.BackSurface = Enum.SurfaceType.Smooth 
+TorsoPos.BackSurfaceInput = Enum.InputType.NoInput 
+TorsoPos.BottomParamA = -0.5 
+TorsoPos.BottomParamB = 0.5 
+TorsoPos.BottomSurface = Enum.SurfaceType.Smooth 
+TorsoPos.BottomSurfaceInput = Enum.InputType.NoInput 
+TorsoPos.BrickColor = BrickColor.new("Medium stone grey") 
+TorsoPos.CFrame = CFrame.new(0.07999999821186066, 3.518141746520996, -7.419999122619629)*CFrame.Angles(-0, -0, -1) 
+TorsoPos.CanCollide = true 
+TorsoPos.CollisionGroupId = "0" 
+TorsoPos.Color = Color3.new(0.639216, 0.635294, 0.647059) 
+TorsoPos.FrontParamA = -0.5 
+TorsoPos.FrontParamB = 0.5 
+TorsoPos.FrontSurface = Enum.SurfaceType.Smooth 
+TorsoPos.FrontSurfaceInput = Enum.InputType.NoInput 
+TorsoPos.LeftParamA = -0.5 
+TorsoPos.LeftParamB = 0.5 
+TorsoPos.LeftSurface = Enum.SurfaceType.Smooth 
+TorsoPos.LeftSurfaceInput = Enum.InputType.NoInput 
+TorsoPos.Locked = false 
+TorsoPos.Material = Enum.Material.Plastic 
+TorsoPos.Name = "TorsoPos" 
+TorsoPos.Orientation = Vector3.new(0, 0, 0) 
+TorsoPos.Parent = CameraHead 
+TorsoPos.Position = Vector3.new(0.07999999821186066, 3.518141746520996, -7.419999122619629) 
+TorsoPos.Reflectance = 0 
+TorsoPos.RightParamA = -0.5 
+TorsoPos.RightParamB = 0.5 
+TorsoPos.RightSurface = Enum.SurfaceType.Smooth 
+TorsoPos.RightSurfaceInput = Enum.InputType.NoInput 
+TorsoPos.RotVelocity = Vector3.new(0, 0, 0) 
+TorsoPos.Rotation = Vector3.new(0, 0, 0) 
+TorsoPos.Shape = Enum.PartType.Block 
+TorsoPos.Size = Vector3.new(0.5, 0.5, 0.5) 
+TorsoPos.TopParamA = -0.5 
+TorsoPos.TopParamB = 0.5 
+TorsoPos.TopSurface = Enum.SurfaceType.Smooth 
+TorsoPos.TopSurfaceInput = Enum.InputType.NoInput 
+TorsoPos.Transparency = 0 
+TorsoPos.Velocity = Vector3.new(0, 0, 0)
+local RightArm = Instance.new("Part")
+RightArm.Size = Vector3.new(1,2,1)
+local LeftArm = Instance.new("Part")
+LeftArm.Size = Vector3.new(1,2,1)
+local Camera = game.Workspace.CurrentCamera
+LeftArm.Parent = Camera
+RightArm.Parent = Camera
+LeftArm.CanCollide = false
+RightArm.CanCollide = false
+Camera.HeadScale = 3
+local HeadPosition = nil
+local function Track(Type, Value)
+	if Type == Enum.UserCFrame.RightHand then
+		RightArm.CFrame = Camera.CoordinateFrame * (CFrame.new(Value.p*(Camera.HeadScale-1))*Value) * CFrame.Angles(90,math.pi,0)
+	end
+	if Type == Enum.UserCFrame.LeftHand then
+		LeftArm.CFrame = Camera.CoordinateFrame * (CFrame.new(Value.p*(Camera.HeadScale-1))*Value) * CFrame.Angles(90,math.pi,0)
+	end
+	if Type == Enum.UserCFrame.Head then
+		HeadPosition = Camera.CoordinateFrame * (CFrame.new(Value.p*(Camera.HeadScale-1))*Value)
+		CameraHead.CFrame = HeadPosition
+	end
+end
+Camera.CameraSubject = nil
+local InputService = game.UserInputService
+InputService.UserCFrameChanged:Connect(Track)
+game.Players.LocalPlayer.Character["Left Arm"]:BreakJoints()
+game.Players.LocalPlayer.Character.Head:BreakJoints()
+game.Players.LocalPlayer.Character["Right Arm"]:BreakJoints()
+game["Run Service"].Heartbeat:Connect(function()
+	game.Players.LocalPlayer.Character["Right Arm"].CFrame = LeftArm.CFrame
+	game.Players.LocalPlayer.Character["Left Arm"].CFrame = RightArm.CFrame
+	game.Players.LocalPlayer.Character.Head.CFrame = HeadPosition
+	game.Players.LocalPlayer.Character.Torso.Position = Vector3.new(TorsoPos.Position.X , 0 , TorsoPos.Position.Z)
+	game.Players.LocalPlayer.Character.Torso.Position.Y = TorsoPos.Position.Y - 3
+	game.Players.LocalPlayer.Character.Torso.Velocity = Vector3.new(90,0,8)
+	game.Players.LocalPlayer.Character.Head.Velocity = Vector3.new(90,0,8)
+	game.Players.LocalPlayer.Character["Left Arm"].Velocity = Vector3.new(90,0,8)
+	game.Players.LocalPlayer.Character["Right Arm"].Velocity = Vector3.new(90,0,8)
+end)
